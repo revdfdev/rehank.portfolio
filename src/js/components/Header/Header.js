@@ -12,10 +12,10 @@ export function Header ({ offset, history }) {
         <Link to='/' className={history?.location?.pathname === '/' ? 'active' : ''}>
           Tweets
         </Link>
-        <Link to='/blog' className={history?.location?.pathname === '/about' ? 'active' : ''}>
-          Resume
+        <Link to='/blog' className={history?.location?.pathname === '/blog' ? 'active' : ''}>
+          Blog
         </Link>
-        <Link to='/skills' className={history?.location?.pathname === '/blog' ? 'active' : ''}>
+        <Link to='/skills' className={history?.location?.pathname === '/skills' ? 'active' : ''}>
           Skills
         </Link>
         <Link to='/resume' className={history?.location?.pathname === '/projects' ? 'active' : ''}>

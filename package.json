@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "https://dev.to",
   "scripts": {
     "start": "parcel ./src/index.html",
     "test": "./node_modules/.bin/jest *.spec.js",
@@ -14,10 +15,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "parcel-plugin-inlinesvg": "^0.1.1",
     "react": "^16.9.0",
+    "react-devicon": "^0.1.9",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-twitter-embed": "^2.0.8",
+    "svg-inline-loader": "^0.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",

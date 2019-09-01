@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.items {
+  width: 32%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  /* Same as width, sets height */
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* (100-32*3)/2 */
+}
+
+.items:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.items div {
+  text-align: center;
+  align-content: center;
+  align-items: center
+}

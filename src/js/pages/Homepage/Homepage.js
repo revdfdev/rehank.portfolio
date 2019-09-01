@@ -8,6 +8,9 @@ import '../../../css/homepage.css'
 import profilepic from '../../../images/myimage.jpeg';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import TwitterPage from '../TwitterPage'
+import BlogPage from '../BlogPage'
+import SkillsPage from '../SkillsPage'
 
 export function Homepage (props) {
   
@@ -39,16 +42,16 @@ export function Homepage (props) {
         <HeaderBody>
           <FaGithub className='icons' onClick={pushToGithub} />
           <FaLinkedin className='icons' onClick={pushToLinkedIn} />
-          <FaTwitter className='icons' />
+          <FaTwitter className='icons' onClick={pushToTwitter} />
         </HeaderBody>
       </Container>
       <Header offset={offSet} onShift={pageShift} />
       <Container type='bottom'>
         <Switch>
-          <Route exact path='/' />
-          <Route path='/blog' />
-          <Route path='/skills' />
-          <Route path='/resumes' />
+          <Route exact path='/' component={TwitterPage} />
+          <Route path='/blog' component={BlogPage} />
+          <Route path='/skills' component={SkillsPage} />
+          <Route path='/resume' />
           <Redirect from='*' to='/' />
         </Switch>
         <Route path='/github' component={() => {

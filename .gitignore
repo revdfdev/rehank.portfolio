@@ -3,6 +3,7 @@
 /coverage/
 /node_modules/
 /.vscode/
+.cache
 
 # Logs
 logs
