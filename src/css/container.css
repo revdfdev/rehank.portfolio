@@ -1,0 +1,15 @@
+.top-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 60px;
+  text-align: center;
+  background-color: #cccccc;
+  background-image: url('../images/cool-background.png');
+}
+
+.content {
+  padding: 16px;
+}
