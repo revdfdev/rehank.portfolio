@@ -83,7 +83,7 @@ var t=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0}),export
 },{"react":"1n8/","../../../css/headerbody.css":"Nfv7"}],"BD+J":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=require("./HeaderBody"),r=e.HeaderBody;exports.default=r;
 },{"./HeaderBody":"/Yoq"}],"22ss":[function(require,module,exports) {
-module.exports="/rehank.portfolio/myimage.e2ab88c6.jpeg";
+module.exports="/myimage.e2ab88c6.jpeg";
 },{}],"ZIT7":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IconsManifest=void 0;const e=[{id:"fa",name:"Font Awesome",projectUrl:"https://fontawesome.com/",license:"CC BY 4.0 License",licenseUrl:"https://creativecommons.org/licenses/by/4.0/"},{id:"io",name:"Ionicons",projectUrl:"https://ionicons.com/",license:"MIT",licenseUrl:"https://github.com/ionic-team/ionicons/blob/master/LICENSE"},{id:"md",name:"Material Design icons",projectUrl:"http://google.github.io/material-design-icons/",license:"Apache License Version 2.0",licenseUrl:"https://github.com/google/material-design-icons/blob/master/LICENSE"},{id:"ti",name:"Typicons",projectUrl:"http://s-ings.com/typicons/",license:"CC BY-SA 3.0",licenseUrl:"https://creativecommons.org/licenses/by-sa/3.0/"},{id:"go",name:"Github Octicons icons",projectUrl:"https://octicons.github.com/",license:"MIT",licenseUrl:"https://github.com/primer/octicons/blob/master/LICENSE"},{id:"fi",name:"Feather",projectUrl:"https://feathericons.com/",license:"MIT",licenseUrl:"https://github.com/feathericons/feather/blob/master/LICENSE"},{id:"gi",name:"Game Icons",projectUrl:"https://game-icons.net/",license:"CC BY 3.0",licenseUrl:"https://creativecommons.org/licenses/by/3.0/"},{id:"wi",name:"Weather Icons",projectUrl:"https://erikflowers.github.io/weather-icons/",license:"SIL OFL 1.1",licenseUrl:"http://scripts.sil.org/OFL"},{id:"di",name:"Devicons",projectUrl:"https://vorillaz.github.io/devicons/",license:"MIT",licenseUrl:"https://opensource.org/licenses/MIT"}];exports.IconsManifest=e;
 },{}],"gzXG":[function(require,module,exports) {
@@ -292,4 +292,4 @@ module.exports = '<svg viewBox="0 0 128 128"><path d="M40.53 77.82V50.74H42V55a5
 },{"./App":"PGHJ"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}require("../css/index.css"),r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","./App":"LeqH","../css/index.css":"Nfv7"}]},{},["QvaY"], null)
-//# sourceMappingURL=/rehank.portfolio/js.3ff94c61.js.map
+//# sourceMappingURL=/js.127a1469.js.map
