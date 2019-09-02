@@ -1,0 +1,6 @@
+{
+  "url-loader": {
+    "exts": ["pdf"],
+    "limit": 66666
+  }
+}
