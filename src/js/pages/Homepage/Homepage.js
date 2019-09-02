@@ -11,6 +11,7 @@ import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaTwitter } from 'react-icon
 import TwitterPage from '../TwitterPage'
 import BlogPage from '../BlogPage'
 import SkillsPage from '../SkillsPage'
+import ResumePage from '../ResumePage'
 
 export function Homepage (props) {
   
@@ -48,23 +49,23 @@ export function Homepage (props) {
       <Header offset={offSet} onShift={pageShift} />
       <Container type='bottom'>
         <Switch>
-          <Route exact path='/' component={TwitterPage} />
+          <Route exact path='/rehank.portfolio' component={TwitterPage} />
           <Route path='/blog' component={BlogPage} />
           <Route path='/skills' component={SkillsPage} />
-          <Route path='/resume' />
-          <Redirect from='*' to='/' />
+          <Route path='/resume' component={ResumePage} />
+          <Redirect from='*' to='/rehank.portfolio' />
         </Switch>
         <Route path='/github' component={() => {
           window.location.href = 'https://github.com/revdfdev'
-          return null;
+          return null
         }} />
         <Route path='/linkedin' component={() => {
           window.location.href = 'https://www.linkedin.com/in/mohammad-rehan-kodekar-211b27123/'
-          return null;
+          return null
         }} />
         <Route path='/twitter' component={() => {
           window.location.href = 'https://twitter.com/rehan_kodekar'
-          return null;
+          return null
         }} />
       </Container>
     </div>

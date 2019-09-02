@@ -29,3 +29,27 @@
   align-content: center;
   align-items: center
 }
+
+@media(max-width: 1333px) {
+  .items {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 1073px) {
+  .items {
+    flex-basis: 33.33%;
+  }
+}
+
+@media(max-width: 815px) {
+  .items {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 555px) {
+  .items {
+    flex-basis: 100%;
+  }
+}

@@ -5,6 +5,7 @@
   padding: 10px 14px;
   overflow: hidden;
   background-color: #009933;
+  z-index: 1;
   transition: opacity 1s ease;
 }
 
@@ -15,6 +16,7 @@
   transition: opacity 1s ease;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
   display: flex;
+  z-index: 1;
 }
 
 .header a {

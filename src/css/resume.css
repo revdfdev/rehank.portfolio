@@ -1,0 +1,38 @@
+.resume-container {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+
+@media(max-width: 1333px) {
+  canvas {
+    width: 612px !important;
+  }
+}
+
+@media(max-width: 1073px) {
+  canvas {
+    width: 480px !important;
+  }
+}
+
+@media(max-width: 815px) {
+  canvas {
+    width: 320px !important;
+  }
+}
+
+@media(max-width: 555px) {
+  canvas {
+    width: 280px !important;
+  }
+}
+
+
+canvas {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+canvas:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
