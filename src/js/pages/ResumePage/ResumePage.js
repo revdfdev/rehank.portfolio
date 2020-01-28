@@ -10,7 +10,7 @@ export function ResumePage () {
       <Container>
         <Resume />
         <div className='download-wrapper'>
-          <a href='../../../docs/RehanKodekar.pdf' download='RehanKodekar.pdf' className='download-button'>Click to download</a>
+          <a href='https://github.com/revdfdev/rehank.portfolio/raw/master/src/docs/RehanKodekar.pdf' download='RehanKodekar.pdf' className='download-button'>Click to download</a>
         </div>
       </Container>
     </Fade>

@@ -50,10 +50,10 @@ export function Homepage (props) {
       <Container type='bottom'>
         <Switch>
           <Route exact path='/rehank.portfolio' component={TwitterPage} />
-          <Route path='/blog' component={BlogPage} />
-          <Route path='/skills' component={SkillsPage} />
-          <Route path='/resume' component={ResumePage} />
-          <Redirect from='*' to='/rehank.portfolio' />
+          <Route exact path='/blog' component={BlogPage} />
+          <Route exact path='/skills' component={SkillsPage} />
+          <Route exact path='/resume' component={ResumePage} />
+          <Redirect from='/' to='/rehank.portfolio' />
         </Switch>
         <Route path='/github' component={() => {
           window.location.href = 'https://github.com/revdfdev'
